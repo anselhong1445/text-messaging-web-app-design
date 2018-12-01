@@ -2,6 +2,10 @@
 
 This project is to be used as drafting to design the UI of **[text-messaging-web-app](https://github.com/anselhong1445/text-messaging-web-app)**.
 
+## Methodologies
+
+- CSS code in this project implements **[BEM](http://getbem.com)**.
+
 ## Built With
 
 - **[Font Awesome](https://fontawesome.com)** (version 5.5.0)
