@@ -62,7 +62,8 @@
 
     <!-- page main -->
     <main class="main">
-      <aside class="serach-bar">
+      <!-- aside in main -->
+      <aside class="main__aisde serach-bar">
         <i class="fas fa-search"></i>
         <input type="text" placeholder="Find friends, chats, Plus Friends" />
       </aside>
@@ -70,38 +71,38 @@
       <!-- section in main -->
       <section class="main__section profiles">
         <h6 class="profiles__title">My Profile</h6>
-        <!-- <div class="profiles__rows"> -->
-        <div class="profiles__profile">
-          <div class="profiles__column">
-            <img class="profiles__profile__img" src="" alt="" />
-            <span class="profiles__profile__name">Sangsik Hong</span>
-          </div>
-        </div>
-        <div class="profiles__profile">
-          <div class="profiles__column">
-            <img class="profiles__profile__img" src="" alt="" />
-            <span class="profiles__profile__name">Friend's Names Display</span>
-          </div>
-        </div>
-        <!-- </div> -->
+        <ul class="profiles__list">
+          <li class="profiles__profile">
+            <div class="profiles__profile__column">
+              <img class="profiles__profile__img" src="" alt="" />
+              <span class="profiles__profile__name">Sangsik Hong</span>
+            </div>
+          </li>
+          <li class="profiles__profile">
+            <div class="profiles__profile__column">
+              <img class="profiles__profile__img" src="" alt="" />
+              <span class="profiles__profile__name">Friend's Names Display</span>
+            </div>
+          </li>
+        </ul>
       </section>
 
       <!-- section in main -->
       <section class="main__section profiles">
         <h6 class="profiles__title">Friends</h6>
-        <!-- <div class="profiles__rows"> -->
-        <div class="profiles__profile">
-          <div class="profiles__column">
-            <img class="profiles__profile__img" src="" alt="" />
-            <span class="profiles__profile__name">Lilibeth</span>
-          </div>
-          <div class="profiles__column">
-            <span class="profiles__profile__status-message"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, numquam!</span
-            >
-          </div>
-        </div>
-        <!-- </div> -->
+        <ul class="profiles__list">
+          <li class="profiles__profile">
+            <div class="profiles__profile__column">
+              <img class="profiles__profile__img" src="" alt="" />
+              <span class="profiles__profile__name">Lilibeth</span>
+            </div>
+            <div class="profiles__profile__column">
+              <span class="profiles__profile__status-message"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, numquam!</span
+              >
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
