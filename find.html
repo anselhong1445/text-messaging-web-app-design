@@ -28,21 +28,23 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
+
+    <!-- page header -->
     <header class="header">
       <div class="header__top">
-        <div class="header_column">
+        <div class="header__column">
           <!-- plane icon -->
           <i class="fas fa-plane"></i>
           <!-- wifie icon -->
           <i class="fas fa-wifi"></i>
         </div>
-        <div class="header_column"><span class="header__time">18:38</span></div>
-        <div class="header_column">
+        <div class="header__column"><span class="header__time">18:38</span></div>
+        <div class="header__column">
           <!-- moon icon -->
           <i class="far fa-moon"></i>
           <!-- bluetooth icon -->
           <i class="fab fa-bluetooth-b"></i>
-          <span class="header_battery"
+          <span class="header__battery"
             >66%
             <!-- battery icon
             --><i class="fas fa-battery-three-quarters"></i
@@ -50,13 +52,16 @@
         </div>
       </div>
       <div class="header__bottom">
-        <div class="header-column"><span class="header__text">Edit</span></div>
-        <div class="header-column"><span class="header__text">Find</span></div>
-        <div class="header-column"></div>
+        <div class="header__column"><span class="header__text">Edit</span></div>
+        <div class="header__column"><span class="header__text">Find</span></div>
+        <div class="header__column"></div>
       </div>
     </header>
+
+    <!-- page main -->
     <main class="main">
-      <section class="find-options">
+      <!-- section in main -->
+      <section class="main__section find-options">
         <div class="find-options__option">
           <i class="find-options__img far fa-address-book fa-lg"></i>
           <span class="find-options__text">Find</span>
@@ -74,20 +79,20 @@
           <span class="find-options__text">Invite via SMS</span>
         </div>
       </section>
-      <section class="friends-section">
-        <header class="friends-section__header">
-          <h6 class="friends-section__title">Recommended Friends</h6>
-        </header>
-        <div class="friends-section__rows friends-section__rows--no-dsresult">
-          <div class="friends-section__row">
-            <div class="friends-section__column">
-              <img class="friends-section__profile-img" src="" alt="" />
-              <span class="friends-section__profile-name">You have no recommended friends</span>
-            </div>
+
+      <!-- section in main -->
+      <section class="main__section profiles">
+        <h6 class="profiles__title">Recommended Friends</h6>
+        <div class="profiles__profile--no-result">
+          <div class="profiles__section__column">
+            <img class="profiles__profile__img" src="" alt="" />
+            <span class="profiles__profile__name">You have no recommended friends</span>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- page nav -->
     <nav class="tab-bar">
       <a href="index.html" class="tab-bar__tab">
         <i class="tab-bar__img fas fa-users"></i> <span class="tab-bar__text">Friends</span>

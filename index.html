@@ -28,21 +28,23 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
+
+    <!-- page header -->
     <header class="header">
       <div class="header__top">
-        <div class="header_column">
+        <div class="header__column">
           <!-- plane icon -->
           <i class="fas fa-plane"></i>
           <!-- wifie icon -->
           <i class="fas fa-wifi"></i>
         </div>
-        <div class="header_column"><span class="header__time">18:38</span></div>
-        <div class="header_column">
+        <div class="header__column"><span class="header__time">18:38</span></div>
+        <div class="header__column">
           <!-- moon icon -->
           <i class="far fa-moon"></i>
           <!-- bluetooth icon -->
           <i class="fab fa-bluetooth-b"></i>
-          <span class="header_battery"
+          <span class="header__battery"
             >66%
             <!-- battery icon
             --><i class="fas fa-battery-three-quarters"></i
@@ -50,102 +52,60 @@
         </div>
       </div>
       <div class="header__bottom">
-        <div class="header-column"><span class="header__text">Manage</span></div>
-        <div class="header-column">
+        <div class="header__column"><span class="header__text">Manage</span></div>
+        <div class="header__column">
           <span class="header__text">Friends<span class="header__number">1</span></span>
         </div>
-        <div class="header-column"><i class="fas fa-cog fa-lg"></i></div>
+        <div class="header__column"><i class="fas fa-cog fa-lg"></i></div>
       </div>
     </header>
-    <!-- Refined BEM -->
+
+    <!-- page main -->
     <main class="main">
-      <div class="serach-bar">
+      <aside class="serach-bar">
         <i class="fas fa-search"></i>
         <input type="text" placeholder="Find friends, chats, Plus Friends" />
-      </div>
-      <section class="friends-section">
-        <header class="friends-section__header">
-          <h6 class="friends-section__title">My Profile</h6>
-        </header>
-        <div class="friends-section__rows">
-          <div class="friends-section__row">
-            <div class="friends-section__column">
-              <img class="friends-section__profile-img" src="" alt="" />
-              <span class="friends-section__profile-name">Sangsik Hong</span>
-            </div>
-          </div>
-          <div class="friends-section__row">
-            <div class="friends-section__column">
-              <img class="friends-section__profile-img" src="" alt="" />
-              <span class="friends-section__profile-name">Friend's Names Display</span>
-            </div>
+      </aside>
+
+      <!-- section in main -->
+      <section class="main__section profiles">
+        <h6 class="profiles__title">My Profile</h6>
+        <!-- <div class="profiles__rows"> -->
+        <div class="profiles__profile">
+          <div class="profiles__column">
+            <img class="profiles__profile__img" src="" alt="" />
+            <span class="profiles__profile__name">Sangsik Hong</span>
           </div>
         </div>
+        <div class="profiles__profile">
+          <div class="profiles__column">
+            <img class="profiles__profile__img" src="" alt="" />
+            <span class="profiles__profile__name">Friend's Names Display</span>
+          </div>
+        </div>
+        <!-- </div> -->
       </section>
-      <section class="friends-section">
-        <header class="friends-section__header">
-          <h6 class="friends-section__title">My Profile</h6>
-        </header>
-        <div class="friends-section__rows">
-          <div class="friends-section__row">
-            <div class="friends-section__column">
-              <img class="friends-section__profile-img" src="" alt="" />
-              <span class="friends-section__profile-name">Lilibeth</span>
-            </div>
-            <div class="friends-section__column">
-              <span class="friends-section__profile-status-message"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, numquam!</span
-              >
-            </div>
+
+      <!-- section in main -->
+      <section class="main__section profiles">
+        <h6 class="profiles__title">Friends</h6>
+        <!-- <div class="profiles__rows"> -->
+        <div class="profiles__profile">
+          <div class="profiles__column">
+            <img class="profiles__profile__img" src="" alt="" />
+            <span class="profiles__profile__name">Lilibeth</span>
+          </div>
+          <div class="profiles__column">
+            <span class="profiles__profile__status-message"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, numquam!</span
+            >
           </div>
         </div>
+        <!-- </div> -->
       </section>
     </main>
-    <!--
-      <main class="friends">
-        <div class="serach-bar">
-          <i class="fas fa-search"></i>
-          <input type="text" placeholder="Find friends, chats, Plus Friends" />
-        </div>
-        <section class="friends__section">
-          <header class="friends__section-header">
-            <h6 class="friends__section-title">My Profile</h6>
-          </header>
-          <div class="friends__section-rows">
-            <div class="friends__section-row">
-              <div class="friends__section-column">
-                <img class="friends__profile-img" src="" alt="" />
-                <span class="friends__profile-name">Sangsik Hong</span>
-              </div>
-            </div>
-            <div class="firends_profile-row">
-              <div class="friends__section-column">
-                <img class="friends__profile-img" src="" alt="" />
-                <span class="friends__profile-name">Friend's Names Display</span>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="friends__section">
-          <header class="friends__section-header">
-            <h6 class="friends__section-title">Friends</h6>
-          </header>
-          <div class="friends__section-rows">
-            <div class="friends__section-row">
-              <div class="friends__section-column">
-                <img class="friends__profile-img" src="" alt="" />
-                <span class="friends__profile-name">Lilibeth</span>
-              </div>
-              <div class="friends__section-column">
-                <span class="friends__profile-status-message"
-                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, numquam!</span
-                >
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-    -->
+
+    <!-- page nav -->
     <nav class="tab-bar">
       <a href="index.html" class="tab-bar__tab tab-bar--selected">
         <i class="tab-bar__img fas fa-users"></i> <span class="tab-bar__text">Friends</span>
