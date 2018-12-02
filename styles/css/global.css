@@ -1,0 +1,10 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 65px;
+}
+
+a:link,
+a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+}

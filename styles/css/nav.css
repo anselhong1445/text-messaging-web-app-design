@@ -1,0 +1,26 @@
+.tab-bar {
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #c1c1c1;
+}
+
+.tab-bar__tab {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #c1c1c1;
+}
+
+.tab-bar__img {
+  margin-bottom: 5px;
+}
+
+.tab-bar--selected {
+  color: black;
+}

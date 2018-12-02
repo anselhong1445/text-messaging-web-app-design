@@ -1,0 +1,21 @@
+.search-bar {
+  padding: 10px 25px;
+  width: 100%;
+  text-align: center;
+  color: #c1c1c1;
+}
+
+.search-bar input {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #f1f2f3;
+  font-size: 1em;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
