@@ -1,0 +1,86 @@
+.profiles {
+  /* background-color: blueviolet; */
+  color: grey;
+}
+
+.profiles__title {
+  border-top: 1px solid #c1c1c1;
+  padding: 10px 20px;
+}
+
+.profiles__list {
+}
+
+.profiles__profile {
+  border-top: 1px solid #c1c1c1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profiles:last-child .profiles__profile:last-child {
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.profiles__profile__column {
+  display: flex;
+  align-items: center;
+}
+
+.profiles__profile__img {
+  border-radius: 50%;
+  /* width: 100%;
+  max-width: 80px;
+  height: auto; */
+  width: 50px;
+}
+
+.profiles__profile:hover .profiles__profile__img {
+  animation: rotate-image 1s forwards linear infinite;
+}
+
+@keyframes rotate-image {
+  from {
+    transform: perspective(120px) rotateY(0deg);
+  }
+  to {
+    transform: perspective(120px) rotateY(360deg);
+  }
+}
+
+.profiles__profile__name {
+  margin-left: 15px;
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+.profiles__profile__status-message {
+  margin-left: 40px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 0.8em;
+
+  max-width: 300px;
+  max-height: 80px;
+  /* min-height: 50px; */
+
+  padding: 10px;
+
+  position: relative;
+  background: #e8e8e8;
+  border-radius: 0.4em;
+}
+
+.profiles__profile__status-message:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-right-color: #e8e8e8;
+  border-left: 0;
+  margin-top: -5px;
+  margin-left: -5px;
+}
