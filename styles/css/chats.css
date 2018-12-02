@@ -57,6 +57,7 @@
   /* display: block; */
   text-align: justify;
   font-size: 0.8em;
+  /* max-width:  */
 }
 
 .chats__chat__date-time {
@@ -77,4 +78,5 @@
   position: absolute;
   bottom: 85px;
   right: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
 }

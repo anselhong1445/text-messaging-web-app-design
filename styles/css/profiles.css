@@ -84,3 +84,14 @@
   margin-top: -5px;
   margin-left: -5px;
 }
+
+.profiles__list--no-result .profiles__profile__column {
+  text-align: center;
+  width: 100%;
+}
+
+.profiles__list--no-result .profiles__profile__name {
+  color: grey;
+  width: 100%;
+  line-height: 50px;
+}

@@ -1,0 +1,24 @@
+.find-options {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+}
+
+.find-options__option {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2c3e50;
+  width: 25%;
+}
+
+.find-options__img {
+  margin-bottom: 5px;
+}
+
+.find-options__text {
+  font-size: 0.8em;
+}
