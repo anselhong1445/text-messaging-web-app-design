@@ -28,6 +28,8 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
+
+    <!-- page header -->
     <header class="header">
       <div class="header__top">
         <div class="header__column">
@@ -51,10 +53,60 @@
       </div>
       <div class="header__bottom">
         <div class="header__column"><i class="fas fa-chevron-left fa-lg"></i></div>
-        <div class="header__column"><span class="header__text">LYNN</span></div>
+        <div class="header__column"><span class="header__text">Lilibeth</span></div>
         <div class="header__column"><i class="fas fa-search"></i><i class="fas fa-bars"></i></div>
       </div>
     </header>
+
+    <!-- page main -->
+    <main class="main">
+      <!-- section in main -->
+      <section class="main__section messages">
+        <div class="messages__date-divider">
+          <span class="messages__date-divider__text">Sunday, December 1, 2018</span>
+        </div>
+
+        <!-- message entity when the sender is "me" -->
+        <div class="messages__message messages__message--me">
+          <div class="messages__message__column">
+            <span class="messages__message__time">13:55</span>
+          </div>
+          <div class="messages__message__column">
+            <div class="messages__message__content">
+              Lili, ain't seen you for a while. We should meet!
+            </div>
+          </div>
+          <div class="messages__message__column">
+            <img src="" alt="" class="messages__message__sender" />
+          </div>
+        </div>
+
+        <!-- message entity when the sender is not "me" -->
+        <div class="messages__message messages__message--others">
+          <div class="messages__message__column">
+            <img
+              src="images/icons8-person-female-64.png"
+              alt=""
+              class="messages__message__sender-img"
+            />
+          </div>
+          <div class="messages__message__column">
+            <h3 class="messages__message__sender-name">Lilibeth</h3>
+            <div class="messages__message__content">Hey, how have you been?</div>
+          </div>
+          <div class="messages__message__column">
+            <span class="messages__message__time">17:44</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- aside in main -->
+      <aside class="main__aside type-message">
+        <i class="type-message__other-methods fas fa-plus"></i>
+        <input type="text" class="type-message__text-input" />
+        <i class="tpe-message__emoji far fa-smile"></i> <i class="fas fa-microphone"></i>
+      </aside>
+    </main>
     <script src="" async defer></script>
   </body>
 </html>
