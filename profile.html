@@ -13,13 +13,17 @@
     <title>Profile</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
+    <!--
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous"
+      />
+    -->
+    <link rel="stylesheet" href="styles/css/all.css" />
     <link rel="stylesheet" href="styles/css/style.css" />
+    <script src="js/all.js"></script>
   </head>
 
   <body>
@@ -31,7 +35,7 @@
     <![endif]-->
 
     <!-- page header -->
-    <header class="header">
+    <header class="header profile-header">
       <div class="header__top">
         <div class="header__column">
           <!-- plane icon -->
@@ -64,20 +68,28 @@
     <!-- page main -->
     <main class="main">
       <!-- section in main -->
+
       <section class="profile-in-details">
-        <img class="profile-in-details__img" src="images/avatar.jpg" alt="" />
-        <h3 class="profile-in-details__name">Sangsik Hong</h3>
-        <input type="text" placeholder="anselhong1445@gmail.com" />
+        <div class="profile-in-details__info">
+          <img class="profile-in-details__img" src="images/avatar.jpg" alt="" />
+          <h3 class="profile-in-details__name">Sangsik Hong</h3>
+          <span class="profile-in-details__email">anselhong1445@gmail.com</span>
+          <!-- <input type="text" placeholder="anselhong1445@gmail.com" /> -->
+        </div>
       </section>
 
       <!-- section in main -->
       <section class="profile-actions">
         <div class="profile-actions__action">
-          <i class="profile-actions__img fas fa-comment"></i>
+          <button class="profile-actions__button">
+            <i class="profile-actions__img fas fa-comment fa-2x"></i>
+          </button>
           <span class="profile-actions__text">My Chatroom</span>
         </div>
         <div class="profile-actions__action">
-          <i class="profile-actions__img fas fa-edit"></i>
+          <button class="profile-actions__button">
+            <i class="profile-actions__img fas fa-edit fa-2x"></i>
+          </button>
           <span class="profile-actions__text">Edit Profile</span>
         </div>
       </section>

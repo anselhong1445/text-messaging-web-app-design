@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 20px 10px;
 }
 
@@ -11,12 +12,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: #2c3e50;
   width: 25%;
 }
 
 .find-options__img {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .find-options__text {

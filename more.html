@@ -13,13 +13,17 @@
     <title>More</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
+    <!--
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous"
+      />
+    -->
+    <link rel="stylesheet" href="styles/css/all.css" />
     <link rel="stylesheet" href="styles/css/style.css" />
+    <script src="js/all.js"></script>
   </head>
 
   <body>
@@ -31,133 +35,156 @@
     <![endif]-->
 
     <!-- page header -->
-    <header class="header">
-      <div class="header__top">
-        <div class="header__column">
-          <!-- plane icon -->
-          <i class="fas fa-plane"></i>
-          <!-- wifie icon -->
-          <i class="fas fa-wifi"></i>
-        </div>
-        <div class="header__column"><span class="header__time">18:38</span></div>
-        <div class="header__column">
-          <!-- moon icon -->
-          <i class="far fa-moon"></i>
-          <!-- bluetooth icon -->
-          <i class="fab fa-bluetooth-b"></i>
-          <span class="header__battery"
-            >66%
-            <!-- battery icon
-            --><i class="fas fa-battery-three-quarters"></i
-          ></span>
-        </div>
-      </div>
-      <div class="header__bottom">
-        <div class="header__column"></div>
-        <div class="header__column"><span class="header__text">More</span></div>
-        <div class="header__column"><i class="fas fa-cog fa-lg"></i></div>
-      </div>
-    </header>
-
-    <!-- page main -->
-    <main class="main">
-      <section class="main__section my-profile">
-        <div class="my-profile__column">
-          <img class="my-profile__img" src="images/avatar.jpg" alt="avatar" />
-          <div class="my-profile__info">
-            <h3 class="my-profile__info__name">Sangsik Hong</h3>
-            <span class="my-profile__info__item">anselhong1445@gmail.com</span>
+    <div class="more-wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__column">
+            <!-- plane icon -->
+            <i class="fas fa-plane"></i>
+            <!-- wifie icon -->
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="header__column"><span class="header__time">18:38</span></div>
+          <div class="header__column">
+            <!-- moon icon -->
+            <i class="far fa-moon"></i>
+            <!-- bluetooth icon -->
+            <i class="fab fa-bluetooth-b"></i>
+            <span class="header__battery"
+              >66%
+              <!-- battery icon
+              --><i class="fas fa-battery-three-quarters"></i
+            ></span>
           </div>
         </div>
-        <div class="my-profile__column"><i class="far fa-comment-alt fa-2x"></i></div>
-      </section>
+        <div class="header__bottom">
+          <div class="header__column"></div>
+          <div class="header__column"><span class="header__text">More</span></div>
+          <div class="header__column"><i class="fas fa-cog fa-lg"></i></div>
+        </div>
+      </header>
 
-      <!-- section in main -->
-      <section class="main__section etc">
-        <div class="etc__option">
-          <i class="etc__img far fa-smile fa-2x"></i> <span class="etc__text">Emotions</span>
-        </div>
-        <div class="etc__option">
-          <i class="etc__img fas fa-paint-brush fa-2x"></i> <span class="etc__text">Themes</span>
-        </div>
-        <div class="etc__option">
-          <i class="etc__img fas fa-plus-circle fa-2x"></i>
-          <span class="etc__text">Plus Friends</span>
-        </div>
-        <div class="etc__option">
-          <i class="etc__img far fa-user-circle fa-2x"></i> <span class="etc__text">Account</span>
-        </div>
-      </section>
+      <!-- page main -->
+      <main class="main">
+        <section class="main__section my-profile">
+          <div class="my-profile__column">
+            <img class="my-profile__img" src="images/avatar.jpg" alt="avatar" />
+            <div class="my-profile__info">
+              <h3 class="my-profile__info__name">Sangsik Hong</h3>
+              <span class="my-profile__info__item">anselhong1445@gmail.com</span>
+            </div>
+          </div>
+          <div class="my-profile__column">
+            <i class="my-profile__icon far fa-comment fa-2x"></i>
+          </div>
+        </section>
 
-      <!-- section in main -->
-      <section class="main__section plus-friends">
-        <div class="plus-friends__header">
-          <h2 class="plus-friends__title">Plus Friends</h2>
-          <span class="plust-friend__text"> <i class="fas fa-info-circle"></i> Learn More </span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-utensils"></i>
-          <span class="plus-friends__text">Order</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-store"></i>
-          <span class="plus-friends__text">Store</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-broadcast-tower"></i>
-          <span class="plus-friends__text">TV Channel/Radio</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-pencil-alt"></i>
-          <span class="plus-friends__text">Creation</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-graduation-cap"></i>
-          <span class="plus-friends__text">Education</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-landmark"></i>
-          <span class="plus-friends__text">Politics/Society</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-money-check-alt"></i>
-          <span class="plus-friends__text">Finance</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="plus-friends__img fas fa-video"></i>
-          <span class="plus-friends__text">Movies/Music</span>
-        </div>
-      </section>
+        <!-- section in main -->
+        <section class="main__section etc">
+          <div class="etc__option">
+            <i class="etc__img far fa-smile fa-2x"></i> <span class="etc__text">Emotions</span>
+          </div>
+          <div class="etc__option">
+            <i class="etc__img fas fa-paint-brush fa-2x"></i> <span class="etc__text">Themes</span>
+          </div>
+          <div class="etc__option">
+            <i class="etc__img fas fa-plus-circle fa-2x"></i>
+            <span class="etc__text">Plus Friends</span>
+          </div>
+          <div class="etc__option">
+            <i class="etc__img far fa-user-circle fa-2x"></i> <span class="etc__text">Account</span>
+          </div>
+        </section>
 
-      <!-- section in main -->
-      <section class="main__section suggestion">
-        <div class="suggestion__option">
-          <img
-            src="images/icons8-play-button-64.png"
-            alt="Youtube app icon image"
-            class="suggestion__img"
-          />
-          <span class="suggestion__text">YouTube</span>
-        </div>
-        <div class="suggestion__option">
-          <img
-            src="images/icons8-spotify-64.png"
-            alt="Spotify app icon image"
-            class="suggestion__img"
-          />
-          <span class="suggestion__text">Spotify</span>
-        </div>
-        <div class="suggestion__option">
-          <img
-            src="images/icons8-chrome-64.png"
-            alt="Chrome app icon image"
-            class="suggestion__img"
-          />
-          <span class="suggestion__text">Chrome</span>
-        </div>
-      </section>
-    </main>
+        <!-- section in main -->
+        <section class="main__section plus-friends">
+          <div class="plus-friends__header">
+            <div class="plus-friends__column">
+              <h2 class="plus-friends__header__title">Plus Friends</h2>
+            </div>
+            <div class="plus-friends__column">
+              <span class="plus-friends__header__text">
+                <i class="fas fa-info-circle"></i> Learn More
+              </span>
+            </div>
+          </div>
+          <div class="plus-friends__content">
+            <div class="plus-friends__column">
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-utensils"></i>
+                <span class="plus-friends__text">Order</span>
+              </div>
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-store"></i>
+                <span class="plus-friends__text">Store</span>
+              </div>
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-broadcast-tower"></i>
+                <span class="plus-friends__text">TV Channel/Radio</span>
+              </div>
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-pencil-alt"></i>
+                <span class="plus-friends__text">Creation</span>
+              </div>
+            </div>
+            <div class="plus-friends__column">
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-graduation-cap"></i>
+                <span class="plus-friends__text">Education</span>
+              </div>
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-landmark"></i>
+                <span class="plus-friends__text">Politics/Society</span>
+              </div>
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-money-check-alt"></i>
+                <span class="plus-friends__text">Finance</span>
+              </div>
+              <div class="plus-friends__item">
+                <i class="plus-friends__img fas fa-video"></i>
+                <span class="plus-friends__text">Movies/Music</span>
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <!-- section in main -->
+        <section class="main__section suggestions">
+          <div class="suggestions__header">
+            <div class="suggestions__column">
+              <h2 class="suggestions__header__title">Suggestions</h2>
+            </div>
+            <div class="suggestions__column"></div>
+          </div>
+          <div class="suggestions__content">
+            <div class="suggestions__option">
+              <img
+                src="images/icons8-play-button-64.png"
+                alt="Youtube app icon image"
+                class="suggestions__img"
+              />
+              <span class="suggestions__text">YouTube</span>
+            </div>
+            <div class="suggestions__option">
+              <img
+                src="images/icons8-spotify-64.png"
+                alt="Spotify app icon image"
+                class="suggestions__img"
+              />
+              <span class="suggestions__text">Spotify</span>
+            </div>
+            <div class="suggestions__option">
+              <img
+                src="images/icons8-chrome-64.png"
+                alt="Chrome app icon image"
+                class="suggestions__img"
+              />
+              <span class="suggestions__text">Chrome</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
     <!-- page nav -->
     <nav class="tab-bar">
       <a href="index.html" class="tab-bar__tab">

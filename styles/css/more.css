@@ -1,0 +1,158 @@
+.more-wrapper {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.more-wrapper .main__section {
+  background-color: white;
+  margin-bottom: 10px;
+}
+.my-profile {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2c3e50;
+}
+
+.my-profile__column:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-profile__img {
+  border-radius: 50%;
+  width: 65px;
+}
+
+.my-profile:hover .my-profile__img {
+  animation: rotate-image 1s forwards linear infinite;
+}
+
+@keyframes rotate-image {
+  from {
+    transform: perspective(120px) rotateY(0deg);
+  }
+  to {
+    transform: perspective(120px) rotateY(360deg);
+  }
+}
+
+.my-profile__info {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.my-profile__info__name,
+.my-profile__info__item {
+  line-height: 1.5em;
+}
+
+.my-profile__info__name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.my-profile__info__item {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.plus-friends {
+  color: #2c3e50;
+}
+
+.plus-friends__column {
+  flex-grow: 1;
+}
+
+.plus-friends__header,
+.plus-friends__content,
+.suggestions__header {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus-friends__header__title,
+.suggestions__header__title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.plus-friends__header .plus-friends__column:last-child {
+  color: grey;
+  text-align: right;
+}
+
+.plus-friends__item {
+  padding: 15px 0px;
+}
+
+.plus-friends__img {
+  display: inline-block;
+  width: 1em;
+}
+
+.plus-friends__text {
+  padding-left: 0.5em;
+}
+
+.etc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.etc__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2c3e50;
+  width: 25%;
+}
+
+.etc__img {
+  margin-bottom: 10px;
+}
+
+.etc__text {
+  font-size: 0.8em;
+}
+
+.suggestions {
+  color: #2c3e50;
+}
+
+.suggestions__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px 0px;
+}
+
+.suggestions__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2c3e50;
+  width: 25%;
+}
+
+.suggestions__img {
+  margin-bottom: 10px;
+  /* border-radius: 50%; */
+  width: 50px;
+}
+
+.suggestions__text {
+  font-size: 0.8rem;
+}
