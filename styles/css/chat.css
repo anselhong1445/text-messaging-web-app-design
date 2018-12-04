@@ -1,11 +1,13 @@
 .chat-header {
-  background-color: transparent;
-  border-bottom: 1px solid whitesmoke;
+  /* background-color: transparent; */
+  background-color: #d6a2e8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #2c3e50;
 }
 
 .chat-header a:link,
 .profile-header a:visited {
-  color: white;
+  color: #2c3e50;
 }
 
 .chat-header .fa-search {
@@ -16,18 +18,18 @@
   width: 100%;
   min-height: 100vh;
   background-color: #d6a2e8;
-  position: relative;
-  top: -65px;
   z-index: -1;
-  padding-top: 100px;
+  position: relative;
+  top: -50px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
 }
 
 .messages__date-divider {
-  color: grey;
+  color: rgba(0, 0, 0, 0.2);
   text-align: center;
-  border-top: 1px grey solid;
+  border-top: 1px rgba(0, 0, 0, 0.2) solid;
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
