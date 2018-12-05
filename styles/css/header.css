@@ -42,3 +42,12 @@
 .header__number {
   color: #fda7df;
 }
+
+@media screen and (max-width: 360px) {
+  .header__top {
+    font-size: 0.6em;
+  }
+  .header__bottom {
+    font-size: 0.8em;
+  }
+}

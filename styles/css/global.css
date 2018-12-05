@@ -15,9 +15,3 @@ a:link,
 a:visited {
   text-decoration: none;
 }
-
-@media screen and (min-width: 550px) {
-  .warning-screen {
-    display: flex;
-  }
-}

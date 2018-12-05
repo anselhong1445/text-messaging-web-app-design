@@ -6,7 +6,7 @@
 }
 
 .search-bar input {
-  width: 90%;
+  width: 80%;
   padding: 5px;
   border-radius: 5px;
   border: 0;
@@ -20,4 +20,15 @@
 .search-bar input:focus {
   outline: none;
   border: 1px solid #49eebf;
+}
+
+@media screen and (max-width: 360px) {
+  .search-bar {
+    padding: 7px 15px;
+  }
+
+  .search-bar input {
+    width: 80%;
+    font-size: 0.7em;
+  }
 }

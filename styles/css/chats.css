@@ -9,6 +9,10 @@
 .chats__list {
 }
 
+.chats__chat {
+  max-height: 150px;
+}
+
 .chats__chat a {
   border-top: 1px solid #c1c1c1;
   padding: 15px;
@@ -31,6 +35,7 @@
   max-width: 80px;
   height: auto; */
   width: 50px;
+  align-self: flex-start;
 }
 
 .chats__chat:hover .chats__chat__user-img {
@@ -58,10 +63,12 @@
 
 .chats__chat__last-msg {
   color: grey;
-  /* display: block; */
-  text-align: justify;
+  /* text-align: justify; */
   font-size: 0.8em;
-  /* max-width:  */
+  display: block;
+  max-height: 3.3em;
+  overflow: auto;
+  padding-top: 5px;
 }
 
 .chats__chat__date-time {
@@ -89,4 +96,19 @@
 .chat-btn:hover {
   background-color: #2c3e50;
   color: #49eebf;
+}
+
+@media screen and (max-width: 360px) {
+  .chats__chat__user-img {
+    width: 40px;
+    align-self: flex-start;
+  }
+  .chats__chat__user-name {
+    font-size: 0.8em;
+  }
+
+  .chats__chat__last-msg,
+  .chats__chat__date-time {
+    font-size: 0.6em;
+  }
 }
