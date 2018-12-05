@@ -15,3 +15,7 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+main {
+  padding-bottom: 65px;
+}
