@@ -14,8 +14,10 @@
   font-size: 1em;
   margin-left: 5px;
   text-align: center;
+  transition: border 0.5s linear;
 }
 
 .search-bar input:focus {
   outline: none;
+  border: 1px solid #49eebf;
 }
